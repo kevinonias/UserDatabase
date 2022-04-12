@@ -10,5 +10,5 @@ class ASN(models.Model):
         ordering = ["_as_number"]
 
     @property
-    def asn_number(self):
+    def as_number(self):
         return f"AS{self._as_number}"
